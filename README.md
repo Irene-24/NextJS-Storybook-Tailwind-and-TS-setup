@@ -1,6 +1,6 @@
 ## Cloning for local use
 
-First, install [https://www.npmjs.com/package/degit](degit) 
+First, install [degit](https://www.npmjs.com/package/degit) 
 
 ```bash
 npm install -g degit
@@ -20,7 +20,8 @@ Update the `"name"` field in the package.json file to match your [PROJECT-NAME] 
 ```json
 {
   "name": "project-name-goes-here",
-...
+  ...
+
 ```
 
 Don't forget to install your dependencies with `yarn` or `npm`
