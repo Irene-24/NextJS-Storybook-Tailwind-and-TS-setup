@@ -10,10 +10,18 @@ yarn global add nodemon --prefix /usr/local
 
 Then in the location where you want to place the project, run
 ```bash
-degit https://github.com/Irene-24/NextJS-Storybook-Tailwind-and-TS-setup
+degit https://github.com/Irene-24/NextJS-Storybook-Tailwind-and-TS-setup [PROJECT-NAME]
 ```
 
-This will clone repo, without any git history attached
+This will clone repo, without any git history attached.
+
+Update the `"name"` field in the package.json file to match your [PROJECT-NAME] like so
+
+```json
+{
+  "name": "project-name-goes-here",
+...
+```
 
 Finally, initialize and commit you initial changes
 ```bash
@@ -27,6 +35,8 @@ git add .
 ```bash
 git commit -m "Initial commit" 
 ```
+
+
 
 ________________________________________________________
 
