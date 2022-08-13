@@ -1,3 +1,35 @@
+## Cloning for local use
+
+First, install [https://www.npmjs.com/package/degit](degit) 
+
+```bash
+npm install -g degit
+# or
+yarn global add nodemon --prefix /usr/local
+```
+
+Then in the location where you want to place the project, run
+```bash
+degit https://github.com/Irene-24/NextJS-Storybook-Tailwind-and-TS-setup
+```
+
+This will clone repo, without any git history attached
+
+Finally, initialize and commit you initial changes
+```bash
+git init 
+```
+
+```bash
+git add . 
+```
+
+```bash
+git commit -m "Initial commit" 
+```
+
+________________________________________________________
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
