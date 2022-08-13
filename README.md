@@ -23,6 +23,9 @@ Update the `"name"` field in the package.json file to match your [PROJECT-NAME] 
 ...
 ```
 
+Don't forget to install your dependencies with `yarn` or `npm`
+
+
 Finally, initialize and commit you initial changes
 ```bash
 git init 
