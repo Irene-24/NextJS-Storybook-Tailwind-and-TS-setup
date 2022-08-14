@@ -5,7 +5,7 @@ First, install [degit](https://www.npmjs.com/package/degit)
 ```bash
 npm install -g degit
 # or
-yarn global add nodemon --prefix /usr/local
+yarn global add degit --prefix /usr/local
 ```
 
 Then in the location where you want to place the project, run
