@@ -8,7 +8,7 @@ npm install -g degit
 yarn global add degit --prefix /usr/local
 ```
 
-Then in the location where you want to place the project, run
+Then, in the location where you want to place the project, run
 ```bash
 degit https://github.com/Irene-24/NextJS-Storybook-Tailwind-and-TS-setup [PROJECT-NAME]
 ```
